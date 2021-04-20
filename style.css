@@ -306,19 +306,19 @@ color:	#212F3D }
      		left: 0px; /*1ère image*/
      	}
      	35%, 50% {
-     		left: -700px; /*2ème image*/
+     		left: -900px; /*2ème image*/
      	}
      	70%, 85% {
-     		left: -1400px; /*3ème image*/
+     		left: -1800px; /*3ème image*/
      	}
      }
 
  #slideshow {
      	position: relative;
-     	width: 700px;
+     	width: 900px;
      	height: 500px;
      	margin-left:  auto;
-      margin-bottom: 160px;
+      margin-bottom: 200px;
     border: solid Gold 4px;
       margin-top: 70px;
      	overflow: hidden;
@@ -334,7 +334,7 @@ flex-flow: row;
      }
 
 #sContent img {
-       width: 700px ;
+       width: 900px ;
        height: 500px ;
 
           }
