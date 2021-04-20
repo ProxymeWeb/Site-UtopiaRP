@@ -3,7 +3,11 @@
  src: url("Polices/BlackGold.otf") format("otf");
 
 }
+@font-face {
+ font-family: "Magneto";
+ src: url("Polices/MAGNETOB.TTF") format("TTF");
 
+}
 body{ background-color: 	#FAFBF2 ;
     margin-top: 0 ;
     margin-right: 0 ;
