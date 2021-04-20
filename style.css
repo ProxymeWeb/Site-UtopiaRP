@@ -1,44 +1,53 @@
 @font-face {
- font-family: "BlackGold";
- src: url("Polices/BlackGold.otf") format("otf");
-
+ font-family: "Recollet";
+ src: url("Polices/Recollet.woff2") format("woff2"),
+        url("Polices/Recollet.woff2") format("woff");
 }
-@font-face {
- font-family: "Magneto";
- src: url("Polices/MAGNETOB.TTF") format("TTF");
 
-}
-body{ background-color: 	#FAFBF2 ;
+
+
+
+
+body{ background-color: #FFFAF0 ;
     margin-top: 0 ;
     margin-right: 0 ;
     margin-left: 0 ;
     margin-bottom:  0 ;
     padding-top:60px;
-
+    background-image: linear-gradient(to bottom, #2f21c6, #2f1b93, #281563, #1c0f37, #080010);
       }
 header {
   position: fixed  ;
 	width: 100%;
-	height: 105px;
-	background: #212F3D;
-	border-bottom: 4px solid 	#FFD700;
+	height: 62px;
+	background: #fff;
+	border-bottom: 4px solid #9000ff;
   top: 0;
   z-index: 10;
 
 }
-
-
-
-
-
 #discord{height: 50px ;
          position: absolute;
          top:6px ;
          right: 10px
           }
 
-#Logo{width : 130px ;
 
+
+
+#Logo1{height:50px ;
+           position: absolute;
+           top:6px ;
+           left:20px;
+          border-radius: 5% ;
+          box-shadow: 2px 2px 2px  #9000ff;}
+
+#Logo{width : 130px ;
+      border-radius: 100px;
+      border-bottom: solid 4px #9000ff ;
+      border-top: none;
+      border-left: solid 3px #9000ff ;
+      border-right: solid 3px #9000ff ;
       display: block;
     margin-left: auto;
     margin-right: auto ;
@@ -54,11 +63,12 @@ transform: scale(1.1); /* (110% zoom ) */}
 
 
 #Mainpage{
-
+      background-image: url("images/background.jpg");
       width: 100%;
       min-height: 1080px;
       margin-top: 0;
       padding-top: 0 ;
+      border: solid white 5px;
       position: relative;
       border-left: none;
       border-right: none;
@@ -69,16 +79,19 @@ transform: scale(1.1); /* (110% zoom ) */}
 
 
 }
+#Mainpage a{ text-decoration: none ;
+             margin: none ;
+             padding: none;
+           }
 
-
-#Title{font-family: Magneto ;
+#Title{font-family: Recollet ;
             font-size: 100px;
             padding-top:0 ;
             margin-top:0 ;
-            top: 90px;
+            top: 100px;
             position: relative;
             text-align: center;
-            color:  #212F3D}
+            color: white}
 
 
 #Menu{position: relative;
@@ -93,6 +106,27 @@ transform: scale(1.1); /* (110% zoom ) */}
       }
 
 
+
+
+#Categorie{width:320px ;
+          height: 100px;
+          border: solid 3px white ;
+          border-radius: 20%;
+          padding-top: 5px ;
+          background-color: rgb(8,0,16);
+          display:flex ;
+          flex-wrap: wrap;
+          justify-content :center;
+          margin-left: 50px;
+          margin-right: 50px;
+          color: white ;
+          margin-bottom: 100px;
+          font-family: Recollet ;
+          font-size: 50px ;
+
+}
+
+
 #Contenant{list-style-type:none;
           margin-top:70px;
           margin-left:40px;
@@ -104,10 +138,10 @@ transform: scale(1.1); /* (110% zoom ) */}
  }
 
 #block{width:320px ;
-      border: solid 3px #FFD700 ;
+      border: solid 3px #9000ff ;
       border-radius: 5%;
       padding-top: 5px ;
-      background-color:  #212F3D;
+      background-color: rgb(8,0,16);
       display:flex ;
       flex-wrap: wrap;
       justify-content :center;
@@ -115,7 +149,6 @@ transform: scale(1.1); /* (110% zoom ) */}
       margin-bottom: 20px;
       margin-right: 20px;
       font-family: Recollet ;
-      box-shadow: GoldenRod 6px 6px;
 
   }
  #price {font-Size: 30px ;
@@ -140,9 +173,9 @@ transform: scale(1.1); /* (110% zoom ) */}
           }
 
 footer {
-	height: 60px;
+	height: 140px;
 	width: 100%;
-	background: #212F3D;
+	background: #080010;
   position: relatives;
   bottom: 0;
 	margin-top: 100px;
@@ -152,211 +185,20 @@ footer {
   padding-top: 0;
 }
 footer .top_line {
-	height: 5px;
+	height: 8px;
 	width: 100%;
 	top: 0;
-	background-color: 	#FFD700;
-
+	background: rgb(156, 0, 255);
+	background: -moz-linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+	background: linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
 }
-
-
+footer img{ height:50px;}
+footer a{font-size:40px ;
+          text-decoration:none;}
+footer .social_links{list-style-type: none;
+                    display: inline ;
+                    margin-right: 20px ;
+                    margin-left:20px}
 div {display : table ;
      margin:0 auto;}
-
-t1{ position: relative ;
-    font-size: 70px  ;
-  top :70px ;
-  text-align: center;
-   font-family:BlackGold;
-   display: flex ;
-  justify-content: center;
- margin: 0
- border: black solid 2px ;
-color:	#212F3D }
-
-
-
-
-
-     /*
-     =====
-    MENU
-     =====
-     */
-
-     .r-link{
-       display: var(--rLinkDisplay, inline-flex) !important;
-     }
-
-     .r-link[href]{
-       color: var(--rLinkColor) !important;
-       text-decoration: var(--rLinkTextDecoration, none) !important;
-     }
-
-     .r-list{
-       padding-left: var(--rListPaddingLeft, 0) !important;
-       margin-top: var(--rListMarginTop, 0) !important;
-       margin-bottom: var(--rListMarginBottom, 0) !important;
-       list-style: var(--rListListStyle, none) !important;
-     }
-
-
-     /*
-     =====
-     CORE STYLES
-     =====
-     */
-
-     .menu{
-       --rLinkColor: var(--menuLinkColor, currentColor);
-     }
-
-     .menu__link{
-       display: var(--menuLinkDisplay, block);
-     }
-
-     /*
-     focus state
-     */
-
-     .menu__link:focus{
-       outline: var(--menuLinkOutlineWidth, 2px) solid var(--menuLinkOutlineColor, currentColor);
-       outline-offset: var(--menuLinkOutlineOffset);
-     }
-
-     /*
-     fading siblings
-     */
-
-     .menu:hover .menu__link:not(:hover){
-       --rLinkColor: var(--menuLinkColorUnactive, rgba(22, 22, 22, .35));
-     }
-
-     /*
-     =====
-     PRESENTATION STYLES
-     =====
-     */
-
-     .menu{
-       background-color: #212F3D;
-       color: white;
-     }
-
-     .menu__list{
-       display: flex;
-     }
-
-     .menu__link{
-       padding: var(--menuLinkPadding, 0.5rem 2.5rem);
-       font-weight: 700;
-       text-transform: uppercase;
-     }
-
-     /*
-     =====
-     TEXT UNDERLINED
-     =====
-     */
-
-     .text-underlined{
-       position: relative;
-       overflow: hidden;
-
-       will-change: color;
-       transition: color .25s ease-out;
-     }
-
-     .text-underlined::before,
-     .text-underlined::after{
-       content: "";
-       width: 0;
-       height: 3px;
-       background-color: var(--textUnderlinedLineColor, currentColor);
-
-       will-change: width;
-       transition: width .1s ease-out;
-
-       position: absolute;
-       bottom: 0;
-     }
-
-     .text-underlined::before{
-       left: 50%;
-       transform: translateX(-50%);
-     }
-
-     .text-underlined::after{
-       right: 50%;
-       transform: translateX(50%);
-     }
-
-     .text-underlined:hover::before,
-     .text-underlined:hover::after{
-       width: 100%;
-       transition-duration: .2s;
-     }
-
-
-
-
-     /*
-     =====
-  LE SLIDER
-     =====
-     */
-     @keyframes AutoSlide {
-     	0%, 15%, 100% {
-     		left: 0px; /*1ère image*/
-     	}
-     	35%, 50% {
-     		left: -700px; /*2ème image*/
-     	}
-     	70%, 85% {
-     		left: -1400px; /*3ème image*/
-     	}
-     }
-
- #slideshow {
-     	position: relative;
-     	width: 700px;
-     	height: 500px;
-     	margin-left:  auto;
-      margin-bottom: 160px;
-    border: solid Gold 4px;
-      margin-top: 70px;
-     	overflow: hidden;
-
-     }
-
-#sContent  {
-  display: flex;
-flex-flow: row;
-      list-style: none;
-      height: 500px ;
-
-     }
-
-#sContent img {
-       width: 700px ;
-       height: 500px ;
-
-          }
-
- #sContent {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 1080px;
-	margin: 0;
-	padding: 0;
-
-
-
-
-	/*CSS3 keyframes animation*/
-	animation-name: AutoSlide;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-}
