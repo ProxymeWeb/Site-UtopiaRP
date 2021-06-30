@@ -72,7 +72,7 @@
 						<li>	<div class=zoom><a href="index.html">	<img id="logo" src="images/logo.png" ></a> </div> </li>
 					</ul>
 					<ul class="pull-left left-menu">
-						<li><a href="about.html">Réglement</a></li>
+						<li><a href="reglement.html">Réglement</a></li>
 						<li><a href="tour.html">Boutique</a></li>
 						<li><a href="pricing.html">Catalogue</a></li>
 					</ul>
@@ -122,7 +122,7 @@
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-6 col-md-offset-3 text-center">
 						<h2 class="fh5co-lead animate-box">Qui Sommes Nous ?</h2>
-						<p class="fh5co-sub-lead animate-box">Pationnés de RP , nous sommes un groupe de joueurs GTA V RP qui c’est formé au fur et à mesure , qui a pour objectif de créer un serveur FREEACCESS capable d'accueillir tous types de joueur , du néophyte à l'expert du RP !   </p>
+						<p class="fh5co-sub-lead animate-box">Passionnés de RP , nous sommes un groupe de joueurs GTA V RP qui c’est formé au fur et à mesure , qui a pour objectif de créer un serveur FREEACCESS capable d'accueillir tous types de joueur , du néophyte à l'expert du RP !   </p>
 					</div>
 				</div>
 				<div class="row">
@@ -218,55 +218,9 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 
-	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-	<script src="js/jquery.style.switcher.js"></script>
-	<script>
-		$(function(){
-			$('#colour-variations ul').styleSwitcher({
-				defaultThemeId: 'theme-switch',
-				hasPreview: false,
-				cookie: {
-		          	expires: 30,
-		          	isManagingLoad: true
-		      	}
-			});
-			$('.option-toggle').click(function() {
-				$('#colour-variations').toggleClass('sleep');
-			});
-		});
-	</script>
-	<!-- End demo purposes only -->
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
-	<!--
-	INFO:
-	jQuery Cookie for Demo Purposes Only.
-	The code below is to toggle the layout to boxed or wide
-	-->
-	<script src="js/jquery.cookie.js"></script>
-	<script>
-		$(function(){
-
-			if ( $.cookie('layoutCookie') != '' ) {
-				$('body').addClass($.cookie('layoutCookie'));
-			}
-
-			$('a[data-layout="boxed"]').click(function(event){
-				event.preventDefault();
-				$.cookie('layoutCookie', 'boxed', { expires: 7, path: '/'});
-				$('body').addClass($.cookie('layoutCookie')); // the value is boxed.
-			});
-
-			$('a[data-layout="wide"]').click(function(event){
-				event.preventDefault();
-				$('body').removeClass($.cookie('layoutCookie')); // the value is boxed.
-				$.removeCookie('layoutCookie', { path: '/' }); // remove the value of our cookie 'layoutCookie'
-			});
-		});
-	</script>
-
 
 	</body>
 </html>
