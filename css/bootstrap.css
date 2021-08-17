@@ -1435,7 +1435,26 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 7px;
 }
+
+.img-responsive2 {
+  max-width: 550px;
+  margin-left: 25px;
+  margin-right: 25px;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 8px 8px 8px rgba(99, 68, 81, 0.603) ;
+}
+
+.img-responsive3 {
+  max-width: 550px;
+  margin-left: 25px;
+  margin-right: 25px;
+  justify-content: center
+  ;
+}
+
 
 .img-rounded {
   border-radius: 6px;
@@ -1936,6 +1955,36 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.container2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.container3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: left;
+}
+
+
+.container4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: left;
+  
+}
+
+
 .container:before, .container:after {
   content: " ";
   display: table;
@@ -7319,5 +7368,6 @@ button.close {
     display: none !important;
   }
 }
+
 
 /*# sourceMappingURL=bootstrap.css.map */

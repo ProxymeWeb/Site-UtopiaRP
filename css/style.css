@@ -500,6 +500,13 @@ body {
   font-weight: 300;
 }
 
+.fh5co-sub-lead2 {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
 #fh5co-features,
 #fh5co-features-2,
 #fh5co-features-3,
@@ -1379,10 +1386,24 @@ body {
 
 .row-bottom-padded-md {
   padding-bottom: 4em;
+  margin-bottom: 0px;
+}
+
+.row-bottom-padded-md2 {
+  padding-bottom: 0em;
+  margin-bottom: 0px;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
     padding-bottom: 2em;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row-bottom-padded-md2 {
+    padding-bottom: 0em;
+    margin-bottom: 0px;
   }
 }
 
@@ -1456,6 +1477,57 @@ transform: scale(1.1); /* (110% zoom ) */}
 
      }
 
+#arcadium_logo {height: 600px ;
+              margin-right: auto;
+              margin-left: auto;
+              font-style: none;
+
+}
+
 
 .blanc{color:white ;
        border-color: white;}
+
+
+
+       /* HOLALAL TOUCHE PAS A CA */
+
+       #catalogue {
+         z-index:10;
+         position: absolute;
+         border-bottom: none;
+         padding: 7px 20px;
+         border: 2px solid white;
+         -webkit-border-radius: 7px;
+         -moz-border-radius: 7px;
+         -ms-border-radius: 7px;
+         border-radius: 7px;
+         color: white ;
+         top:5px ;
+         left: 20px ;
+         background-color: rgba(255, 255, 255, 0.2);
+
+
+       }
+       .opac:hover {
+         border: 2px solid green;
+         color: green ;
+         background-color: rgba(255, 255, 255, 0.5);
+       }
+
+    #titre{
+      padding: 30px 10px 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #484c50;
+    text-decoration: none !important;
+
+    }
+
+  .text{  padding: 0px 10px 0px 10px;
+    text-align: center;}
+
+  
+
