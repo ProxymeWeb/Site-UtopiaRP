@@ -1468,6 +1468,15 @@ body {
 .zoom:hover {
 transform: scale(1.1); /* (110% zoom ) */}
 
+.zoom2 {
+  margin-right: 60px;
+  margin-left: 60px;
+  transition: transform .2s; /* Animation */
+}
+
+.zoom2:hover {
+transform: scale(1.05); /* (105% zoom ) */}
+
 #logo{height: 150px ;
      margin-top: 0 ;
      padding-top:0;
@@ -1476,6 +1485,18 @@ transform: scale(1.1); /* (110% zoom ) */}
      right: 50px;
 
      }
+
+  #logo2{height: 100px ;
+      margin-top: 0 ;
+      padding-top:0;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      display: flex;
+      bottom: 50px ;
+      right: 50px;
+ 
+      }
 
 #arcadium_logo {height: 600px ;
               margin-right: auto;
