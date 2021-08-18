@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
@@ -1460,14 +1455,18 @@ body {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* ZOOM */
 .zoom {
   transition: transform .2s; /* Animation */
 }
 
 .zoom:hover {
 transform: scale(1.1); /* (110% zoom ) */}
+/*FIN  ZOOM */
 
+
+
+/*LOGO UTOPIA */
 #logo{height: 150px ;
      margin-top: 0 ;
      padding-top:0;
@@ -1477,6 +1476,8 @@ transform: scale(1.1); /* (110% zoom ) */}
 
      }
 
+
+/*LOGO ARCADIUM */
 #arcadium_logo {height: 600px ;
               margin-right: auto;
               margin-left: auto;
@@ -1490,8 +1491,10 @@ transform: scale(1.1); /* (110% zoom ) */}
 
 
 
-       /* HOLALAL TOUCHE PAS A CA */
+ /* Jobs*/
 
+
+         /* petite case Catalogue */
        #catalogue {
          z-index:10;
          position: absolute;
@@ -1514,6 +1517,7 @@ transform: scale(1.1); /* (110% zoom ) */}
          color: green ;
          background-color: rgba(255, 255, 255, 0.5);
        }
+        /* FIN petite case Catalogue */
 
     #titre{
       padding: 30px 10px 10px 10px;
@@ -1528,8 +1532,8 @@ transform: scale(1.1); /* (110% zoom ) */}
 
   .text{  padding: 0px 10px 0px 10px;
     text-align: center;}
-
-  /*Boutique */
+/* FIN Jobs*/
+/*Boutique */
 
   .containerpack{
     display: grid;
@@ -1596,5 +1600,6 @@ transform: scale(1.1); /* (110% zoom ) */}
   display: flex ;
   justify-content: flex-end;
   right: 50px ;
-s
+
 }
+/* FIN Boutique */
