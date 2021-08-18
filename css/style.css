@@ -1509,15 +1509,18 @@ transform: scale(1.1); /* (110% zoom ) */}
          top:5px ;
          left: 20px ;
          background-color: rgba(255, 255, 255, 0.2);
+         transition-property:color;
 
 
        }
-       .opac:hover {
-         border: 2px solid green;
-         color: green ;
-         background-color: rgba(255, 255, 255, 0.5);
+       #catalogue:hover {
+           background-color:rgba(255, 255, 255, 0.5);
+           color: black ;
+           font-style: bold ;
        }
-        /* FIN petite case Catalogue */
+
+
+ /* FIN petite case Catalogue */
 
     #titre{
       padding: 30px 10px 10px 10px;
@@ -1603,3 +1606,20 @@ transform: scale(1.1); /* (110% zoom ) */}
 
 }
 /* FIN Boutique */
+/* Concess */
+
+    .zoom2{margin-right: 60px;
+          margin-left:60px;
+          transition : transform .2s ;
+               }
+
+    .zoom2:hover{
+           transform : scale(1.05)  ;
+                          }
+     #logo2{height:100px ;
+          margin: 0 auto 0 auto ;
+          justify-content: center ;
+          display: flex ;
+          right: 50px ;
+          left: 50px }
+/* FIN Concess */
