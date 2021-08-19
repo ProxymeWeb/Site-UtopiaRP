@@ -1431,6 +1431,8 @@ img {
   vertical-align: middle;
 }
 
+
+/*  Image des boites */
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -1981,7 +1983,7 @@ pre code {
   margin-bottom: 40px;
   display: flex;
   justify-content: left;
-  
+
 }
 
 
